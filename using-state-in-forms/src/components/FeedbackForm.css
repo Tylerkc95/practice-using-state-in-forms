@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+fieldset {
+  padding: 1rem;
+  margin: 1rem;
+  border: 0.25rem double rgb(133, 152, 170);
+}
+
+input,
+textarea {
+  margin: 0.1rem;
+}
+
+.label-text-pair {
+  display: flex;
+  flex-direction: column;
+}
